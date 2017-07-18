@@ -18,6 +18,7 @@ object Main {
     shortOrLong match{
       case 1 => numbers(index)._1
       case 2 => numbers(index)._2
+      case _ => ""
     }}
   @tailrec
   def buildString(currentString:String,byThrees:Int,message:String,printExample:Int): String ={
