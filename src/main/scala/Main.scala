@@ -1,5 +1,5 @@
 import scala.annotation.tailrec
-
+//AK
 object Main {
   def main(args:Array[String]): Unit ={
     val input = scala.io.StdIn.readLine()
